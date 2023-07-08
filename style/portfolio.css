@@ -42,4 +42,8 @@ nav a{
 }
 .banner{
     padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner .pp{
+  width:500px ;  
 }
