@@ -142,20 +142,15 @@ main section {
 
 .skill {
     padding: 30px;
-    gap
-}
-
-.resume-colum-title {
-    font-size: 30px;
-    color: var(--dark-02, #474747);
-    font-weight: 700;
 
 }
+
+
 
 .resume-container {
     display: flex;
     gap: 50px;
-    justify-content: space-between;
+
 }
 
 .resume-item-description {
@@ -175,8 +170,8 @@ main section {
 
  .resume-item-title {
     color: #474747;
-    font-size: 25px
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 700px;
 
 }
 .resume-container hr{
@@ -186,4 +181,31 @@ main section {
     text-align: center;
     ;
     margin-top: 50px;
+    margin-bottom: 100px;
+}
+.social-link a{
+    margin-right:20px;
+}
+
+.contact input, textarea{
+    display: block;
+   margin-bottom: 24px;
+   padding: 5px 10px;
+   color: #757575;
+   background-color: white;
+   border-radius: 5px;
+   border: 0px;
+   width: 100%;
+}
+
+.emon{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding:230px;
+
+  
+}
+.emon footer-colum{
+    gap: 100px;
 }
